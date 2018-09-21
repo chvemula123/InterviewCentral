@@ -36,6 +36,6 @@
         if (n == 1 || n == 2) {
             return 1;
         }
-        return calculateFibonacciRecursive(n - 1) + calculateFibonacciRecursive( n - 2);
+        return calculateFibonacciRecursive(n - 1) + calculateFibonacciRecursive(n - 2);
     }
 ````
